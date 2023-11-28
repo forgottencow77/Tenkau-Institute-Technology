@@ -19,8 +19,8 @@ browser = webdriver.Chrome(options=options)
 browser.implicitly_wait(3)
 
 # キーワード設定
-KEYWORD = input()
-MAX_ITEMS = 5
+KEYWORD = "macbook pro 13inch i5 16gb 256gb"
+MAX_ITEMS = 100000
 
 def get_url():
     # 売り切れのみ表示
